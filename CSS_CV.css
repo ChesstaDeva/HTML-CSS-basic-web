@@ -1,0 +1,57 @@
+body {
+    background-color: #FDBB30;
+}
+
+a {
+    text-decoration: underline dotted black;
+    color: black;
+}
+
+p {
+
+    text-decoration: underline overline dotted #FDBB30;
+    color: #FDBB30;
+}
+
+h2 {
+    text-decoration: underline overline dotted #FDBB30;
+    color: #8d0000;
+}
+
+nav {
+    width: 20%;
+    background-color: #8d0000;
+    float: left;
+    height: 400px;
+}
+
+
+ul.vertical {
+    list-style-type: none; /*tidak akan memunculkan 123, atau bulat*/
+    padding: 0; /*memberi jarak antara konten dengan garis elemen yang ada diatas dan dibawah*/
+    margin: 0; /*memberi jarak antara elemen 1 dengan elemen yang lain*/
+    overflow: hidden; /*menampilkan scroll bar kalau misal isi konten elemen itu lebih dari panjangnya elemen*/
+    background-color: rgb(141, 0, 0);
+}
+
+ul.vertical li a{
+    display: block;
+    text-decoration: none;
+    color: black;
+    padding: 15px;
+    text-align: left;
+
+}
+
+ul.vertical li a:hover{
+    background-color:#FDBB30;
+    color: white;
+}
+
+/*Tag div yang menggunakan kelas content*/
+div.content{
+    width: 80%;
+    background-color:#FDBB30;
+    float: right;
+    height: 500px;
+}
